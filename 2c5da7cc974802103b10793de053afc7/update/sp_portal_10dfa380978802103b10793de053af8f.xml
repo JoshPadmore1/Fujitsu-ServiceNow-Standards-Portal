@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#4f52bd;
+$body-bg:#f6f6f8;
+$state-success-text:#000000;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#333579;
+$text-color:#000000;
+$sp-logo-margin-y:.6rem;
+$navbar-inverse-link-hover-color:#bdc0c4;
+$panel-bg:#090973;
+$brand-success:#51ae00;
+$navbar-inverse-bg:#090973;
+$brand-warning:#F0E000;
+$brand-danger:#E42338;
+$sp-tagline-color:#181A1F;
+$navbar-inverse-link-color:#ffffff;
+$brand-info:#38aaf4;
+$link-color:#ffffff;
+$sp-logo-margin-x:.6rem;
+$btn-default-bg:#0a0a99;
+$text-muted:#656E81;
+</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="fspp_homepage">d4a148d497c802103b10793de053afda</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 21:56:03</sys_created_on>
+        <sys_id>10dfa380978802103b10793de053af8f</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Fujitsu Standards Practice Portal</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sp_portal_10dfa380978802103b10793de053af8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 23:36:49</sys_updated_on>
+        <theme display_value="FSPP Theme">eeae2380978802103b10793de053afbc</theme>
+        <title>Fujitsu Standards Practice Portal</title>
+        <ts_index_group/>
+        <url_suffix>fspp</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=10dfa380978802103b10793de053af8f"/>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>FSPP Header</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 23:49:29</sys_created_on>
+        <sys_id>2dd9c050970c02103b10793de053af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSPP Header</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sp_header_footer_2dd9c050970c02103b10793de053af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 23:49:29</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+</div>]]></template>
+    </sp_header_footer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</application>
+        <file_path/>
+        <instance_id>65aa6f8bdba6311405ef172913961978</instance_id>
+        <instance_name>dev219907</instance_name>
+        <name>sp_header_footer_2dd9c050970c02103b10793de053af34</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;FSPP Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;false&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-25 23:49:29&lt;/sys_created_on&gt;&lt;sys_id&gt;2dd9c050970c02103b10793de053af34&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;FSPP Header&lt;/sys_name&gt;&lt;sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7"&gt;2c5da7cc974802103b10793de053afc7&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Fujitsu ServiceNow Standards Portal"&gt;2c5da7cc974802103b10793de053afc7&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_2dd9c050970c02103b10793de053af34&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-25 23:49:29&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-307934241</payload_hash>
+        <record_name>FSPP Header</record_name>
+        <reverted_from/>
+        <source>387e48e8d9b13110cedf7dffddb48f09</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 23:49:29</sys_created_on>
+        <sys_id>a2e90c10970c02103b10793de053afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d4307515a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 23:49:29</sys_updated_on>
+        <type>Header | Footer</type>
+        <update_guid>e6e90c10a00c02107fa1e5b2fc93d2c4</update_guid>
+        <update_guid_history>e6e90c10a00c02107fa1e5b2fc93d2c4:-307934241</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="FSPP Header">5a3a4850970c02103b10793de053aff7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 23:50:50</sys_created_on>
+        <sys_db_object display_value="" name="sp_header_footer">sp_header_footer</sys_db_object>
+        <sys_id>2c32417f4e164e5f8fe7d6a885f50e19</sys_id>
+        <sys_metadata>2dd9c050970c02103b10793de053af34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSPP Header</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_scope_delete display_value="">32f0c3447d754884b535468ead26cc24</sys_scope_delete>
+        <sys_update_name>sp_header_footer_2dd9c050970c02103b10793de053af34</sys_update_name>
+        <sys_update_version display_value="sp_header_footer_2dd9c050970c02103b10793de053af34">a2e90c10970c02103b10793de053afc5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 23:50:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
