@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Tasks Widget">c194f5399344821027ea74cdfaba1083</child>
+        <cloned>2024-01-30 23:26:24</cloned>
+        <last_validated>2024-01-30 23:26:24</last_validated>
+        <parent display_value="My tasks">789ba1bd9304821027ea74cdfaba10be</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;my_tasks&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;My tasks&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	data.task =[];
+	
+	var gr = new GlideRecord('sc_task');
+	gr.addQuery('assigned_to', gs.getUserID());
+	gr.query()
+	
+	while(gr.next()){
+		var task_data ={};
+		task_data.number = gr.getValue('number');
+		task_data.state = gr.getValue('state');
+		task_data.priority = gr.getValue('priority');
+		
+		data.task.push(task_data);
+	}
+	
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-30 22:47:03&lt;/sys_created_on&gt;&lt;sys_id&gt;789ba1bd9304821027ea74cdfaba10be&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;My tasks&lt;/sys_name&gt;&lt;sys_package display_value="Employee Center Core" source="sn_hr_sp"&gt;3d1da2705b021200a4656ede91f91ab6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Employee Center Core"&gt;3d1da2705b021200a4656ede91f91ab6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_789ba1bd9304821027ea74cdfaba10be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-30 23:16:38&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+  &lt;table border =1.5px&gt;
+    &lt;tr&gt; 
+      &lt;th&gt; Number&lt;/th&gt;
+      &lt;th&gt; State&lt;/th&gt;
+      &lt;th&gt; Priority&lt;/th&gt;  
+    &lt;/tr&gt;
+    
+    &lt;tr ng-repeat = "task_data in data.task"&gt;
+    	&lt;td&gt;{{task_data.number}}&lt;/td&gt;
+      &lt;td&gt;{{task_data.state}}&lt;/td&gt;
+      &lt;td&gt;{{task_data.priority}}&lt;/td&gt;
+    &lt;/tr&gt;
+    
+  &lt;/table&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 23:26:24</sys_created_on>
+        <sys_id>5594f5399344821027ea74cdfaba1086</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c194f5399344821027ea74cdfaba1083</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_5594f5399344821027ea74cdfaba1086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 23:26:24</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

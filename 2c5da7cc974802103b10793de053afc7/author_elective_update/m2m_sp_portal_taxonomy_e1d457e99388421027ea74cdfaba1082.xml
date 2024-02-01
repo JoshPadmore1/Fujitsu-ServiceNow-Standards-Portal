@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="Fujitsu Standards Practice Portal">10dfa380978802103b10793de053af8f</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 11:48:28</sys_created_on>
+        <sys_id>e1d457e99388421027ea74cdfaba1082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fujitsu Standards Practice Portal.Employee</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_e1d457e99388421027ea74cdfaba1082</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 11:48:28</sys_updated_on>
+        <taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy>
+    </m2m_sp_portal_taxonomy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</application>
+        <file_path/>
+        <instance_id>2d7042b6db967d142f082a5913961904</instance_id>
+        <instance_name>dev207946</instance_name>
+        <name>m2m_sp_portal_taxonomy_e1d457e99388421027ea74cdfaba1082</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy"><m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sp_portal display_value="Fujitsu Standards Practice Portal">10dfa380978802103b10793de053af8f</sp_portal><sys_class_name>m2m_sp_portal_taxonomy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-30 11:48:28</sys_created_on><sys_id>e1d457e99388421027ea74cdfaba1082</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fujitsu Standards Practice Portal.Employee</sys_name><sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package><sys_policy/><sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope><sys_update_name>m2m_sp_portal_taxonomy_e1d457e99388421027ea74cdfaba1082</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-30 11:48:28</sys_updated_on><taxonomy display_value="Employee">1f5d5a40c3203010069aec4b7d40dd93</taxonomy></m2m_sp_portal_taxonomy></record_update>]]></payload>
+        <payload_hash>-53154527</payload_hash>
+        <record_name>Fujitsu Standards Practice Portal.Employee</record_name>
+        <reverted_from/>
+        <source>03cac7ed9348421027ea74cdfaba1044</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 11:48:28</sys_created_on>
+        <sys_id>21d49fe99388421027ea74cdfaba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5a32ff450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 11:48:28</sys_updated_on>
+        <type>Portal Taxonomy</type>
+        <update_guid>edd457e91488421028d0c8c9279c4f83</update_guid>
+        <update_guid_history>edd457e91488421028d0c8c9279c4f83:-53154527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fujitsu Standards Practice Portal.Employee">78e49fe99388421027ea74cdfaba1017</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 11:48:41</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_taxonomy">m2m_sp_portal_taxonomy</sys_db_object>
+        <sys_id>01acebf2fc6a4c7897988096dd1f2b24</sys_id>
+        <sys_metadata>e1d457e99388421027ea74cdfaba1082</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fujitsu Standards Practice Portal.Employee</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_scope_delete display_value="">32f0c3447d754884b535468ead26cc24</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_taxonomy_e1d457e99388421027ea74cdfaba1082</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_taxonomy_e1d457e99388421027ea74cdfaba1082">21d49fe99388421027ea74cdfaba108e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 11:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

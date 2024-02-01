@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_footer">
+    <sn_ex_sp_footer action="DELETE">
+        <active>true</active>
+        <copyright>© 2021 ServiceNow. All rights reserved.</copyright>
+        <logo/>
+        <name>FSPP Footer</name>
+        <organization_content>ServiceNow 
+2225 Lawson Lane 
+Santa Clara, CA , 95054 </organization_content>
+        <portal>70cd9f3b734b13001fdae9c54cf6a72f</portal>
+        <sys_class_name>sn_ex_sp_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 14:17:57</sys_created_on>
+        <sys_id>263a025693c0021027ea74cdfaba10f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FSPP Footer</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sn_ex_sp_footer_263a025693c0021027ea74cdfaba10f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 14:18:09</sys_updated_on>
+    </sn_ex_sp_footer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</application>
+        <file_path/>
+        <instance_id>2d7042b6db967d142f082a5913961904</instance_id>
+        <instance_name>dev207946</instance_name>
+        <name>sn_ex_sp_footer_263a025693c0021027ea74cdfaba10f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_footer"><sn_ex_sp_footer action="INSERT_OR_UPDATE"><active>true</active><copyright>© 2021 ServiceNow. All rights reserved.</copyright><logo/><name>FSPP Footer</name><organization_content>ServiceNow 
+2225 Lawson Lane 
+Santa Clara, CA , 95054 </organization_content><portal>70cd9f3b734b13001fdae9c54cf6a72f</portal><sys_class_name>sn_ex_sp_footer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-01 14:17:57</sys_created_on><sys_id>263a025693c0021027ea74cdfaba10f6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>FSPP Footer</sys_name><sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package><sys_policy/><sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope><sys_update_name>sn_ex_sp_footer_263a025693c0021027ea74cdfaba10f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-01 14:18:09</sys_updated_on></sn_ex_sp_footer></record_update>]]></payload>
+        <payload_hash>1976104928</payload_hash>
+        <record_name>FSPP Footer</record_name>
+        <reverted_from/>
+        <source>03cac7ed9348421027ea74cdfaba1044</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 14:18:09</sys_created_on>
+        <sys_id>e14a825693c0021027ea74cdfaba103d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d6508c2dc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 14:18:09</sys_updated_on>
+        <type>Employee Center Footer</type>
+        <update_guid>a94a825692c00210de38fba1d8c3903c</update_guid>
+        <update_guid_history>a94a825692c00210de38fba1d8c3903c:1976104928,a23a025612c00210b2dc46854d4f49f8:-1397554942</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="FSPP Footer">5f6a865693c0021027ea74cdfaba1098</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 14:18:49</sys_created_on>
+        <sys_db_object display_value="" name="sn_ex_sp_footer">sn_ex_sp_footer</sys_db_object>
+        <sys_id>9bbc0ee31e784d989661875d47a304c4</sys_id>
+        <sys_metadata>263a025693c0021027ea74cdfaba10f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSPP Footer</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_scope_delete display_value="">32f0c3447d754884b535468ead26cc24</sys_scope_delete>
+        <sys_update_name>sn_ex_sp_footer_263a025693c0021027ea74cdfaba10f6</sys_update_name>
+        <sys_update_version display_value="sn_ex_sp_footer_263a025693c0021027ea74cdfaba10f6">e14a825693c0021027ea74cdfaba103d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 14:18:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

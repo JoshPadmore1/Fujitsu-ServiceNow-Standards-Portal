@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_footer">
+    <sn_ex_sp_footer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copyright/>
+        <logo/>
+        <name>FSPP Footer</name>
+        <organization_content>Fujitsu ServiceNow Practice Portal</organization_content>
+        <portal>10dfa380978802103b10793de053af8f</portal>
+        <sys_class_name>sn_ex_sp_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 14:21:25</sys_created_on>
+        <sys_id>39da8e5693c0021027ea74cdfaba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FSPP Footer</sys_name>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sn_ex_sp_footer_39da8e5693c0021027ea74cdfaba10f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 14:21:25</sys_updated_on>
+    </sn_ex_sp_footer>
+</record_update>

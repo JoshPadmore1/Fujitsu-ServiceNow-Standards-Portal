@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">79a2f1f59344821027ea74cdfaba1079</sp_column>
+        <sp_widget display_value="Tasks Widget">c194f5399344821027ea74cdfaba1083</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 11:19:05</sys_created_on>
+        <sys_id>e241e5569300021027ea74cdfaba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_update_name>sp_instance_e241e5569300021027ea74cdfaba100d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 11:19:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e241e5569300021027ea74cdfaba100d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</application>
+        <file_path/>
+        <instance_id>2d7042b6db967d142f082a5913961904</instance_id>
+        <instance_name>dev207946</instance_name>
+        <name>sp_instance_e241e5569300021027ea74cdfaba100d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">79a2f1f59344821027ea74cdfaba1079</sp_column><sp_widget display_value="Tasks Widget">c194f5399344821027ea74cdfaba1083</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-01 11:19:05</sys_created_on><sys_id>e241e5569300021027ea74cdfaba100d</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package><sys_policy/><sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope><sys_update_name>sp_instance_e241e5569300021027ea74cdfaba100d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-01 11:19:05</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e241e5569300021027ea74cdfaba100d"/></record_update>]]></payload>
+        <payload_hash>1382445837</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>03cac7ed9348421027ea74cdfaba1044</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 11:19:05</sys_created_on>
+        <sys_id>e641e5569300021027ea74cdfaba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d6464d0b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 11:19:05</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>2e41e556f700021020c15456ff17ef0e</update_guid>
+        <update_guid_history>2e41e556f700021020c15456ff17ef0e:1382445837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e5d2651a9300021027ea74cdfaba1069</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 11:25:51</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>efa8bee2229e4466a3d948f3f844d024</sys_id>
+        <sys_metadata>e241e5569300021027ea74cdfaba100d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fujitsu ServiceNow Standards Portal" source="2c5da7cc974802103b10793de053afc7">2c5da7cc974802103b10793de053afc7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fujitsu ServiceNow Standards Portal">2c5da7cc974802103b10793de053afc7</sys_scope>
+        <sys_scope_delete display_value="">32f0c3447d754884b535468ead26cc24</sys_scope_delete>
+        <sys_update_name>sp_instance_e241e5569300021027ea74cdfaba100d</sys_update_name>
+        <sys_update_version display_value="sp_instance_e241e5569300021027ea74cdfaba100d">e641e5569300021027ea74cdfaba100f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 11:25:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
